@@ -1,0 +1,30 @@
+body{
+  font-size: 6em;
+  text-align: center;
+}
+
+/*ゲームののこり秒数が表示されるタイマー*/
+.count{
+  margin: 0;
+  font-weight: bold;
+  color: #888;
+}
+
+/*テキストが表示される領域*/
+.wrap{
+  margin-top: 20px;
+  padding: 80px 40px;
+  background-color: #666;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*正しくタイピングされた場合のテキスト*/
+.typed{
+  color: lightgreen;
+}
+
+/*ミスタイピングの場合の背景*/
+.mistyped{
+  background-color: red;
+}
